@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <!-- Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <!-- Sweetalert -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2/dist/sweetalert2.all.min.js"></script>
+    <script src="assets/js/toast_box.js"></script>
+	
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/menu.css">
+    <link rel="stylesheet" href="assets/css/ico.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css/animate.min.css">
+	
+    <!-- JS -->
+    <script src="assets/js/video_toggle.js"></script>
+	
+    <!-- Icon -->
+    <link rel="icon" href="assets/img/favicon.png" type="image/png" sizes="32x32">
+	
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+	
+    <!-- Tab title -->
+    <title>Among Us - Hit'Em</title>
+  </head>
+  <body>
+    <!-- TsParticles -->
+    <div id="tsparticles"></div>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles/tsparticles.bundle.min.js"></script>
+    <script src="assets/js/tsparticles_config.js"></script>
+	
+    <!-- Page structure -->
+    <div id="page-container">
+      <div id="content-wrap"> <!-- content start -->
+	  
+        <!-- Site header zone -->
+        <p class="space_padding_top"></p>
+		
+        <a href="https://store.steampowered.com/app/945360/Among_Us/">
+          <img src="assets/img/logo.png" alt="Among Us Logo" style="width: 15%;">
+        </a>
+        <p style="font-family: smooch sans;">A party game of teamwork and betrayal.</p>
+		
+        <!-- Menu -->
+        <nav class="menu">
+          <a href="index.html">Home</a>
+          <a href="museum.html">Museum</a>
+          <a class="active" href="hitem.html">Hit'Em</a>
+          <div class="dot"></div>
+        </nav>
+		
+        <!-- Text -->
+        <p class="space_padding"></p>
+		
+        <div class="container">
+          <div class="ico-player ico-player-yellow">
+            <img src="assets/img/ico-yellow-player.svg" alt="Yellow Player Decor">
+          </div>
+          <div class="ico-player ico-player-red">
+            <img src="assets/img/ico-red-player.svg" alt="Red Player Decor">
+          </div>
+          <div class="ico-player ico-player-black" onclick="video_toggle()">
+            <img src="assets/img/ico-black-player.svg" alt="Black Player Decor">
+          </div>
+        </div>
+		
+        <div id="video-player" class="video-visbility">
+          <video id="play" width="640" height="360">
+            <source src="assets/img/amogus.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+          </video>
+        </div>
+		
+      </div> <!-- content end -->
+	  
+      <!-- Footer -->
+      <footer id="footer">
+        <p style="font-family: candara;">&copy; <a href="http://steamcommunity.com/id/arminc/">ArminC</a> (<a href="https://github.com/armync">GitHub</a>)</p>
+      </footer>
+    </div>
+  </body>
+</html>
