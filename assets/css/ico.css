@@ -1,0 +1,30 @@
+.ico-player {
+  position: absolute;
+  cursor: pointer;
+}
+
+.ico-player-yellow {
+  top: 30%;
+  left: 5%;
+}
+.ico-player-red {
+  bottom: 10%;
+  right: 5%;
+}
+.ico-player-black {
+  top: 70%;
+  left: 10%;
+}
+
+.ico-player img {
+  width: 100px;
+  min-height: auto;
+}
+
+.video-player {
+  width: 100%;
+}
+
+.video-visbility {
+  visibility: hidden;
+}
